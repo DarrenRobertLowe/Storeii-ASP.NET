@@ -29,8 +29,8 @@ namespace Storeii.Pages.OrderItems
             }
 
             OrderItem = await _context.OrderItems
-                .Include(o => o.Orders_IdNavigation)
-                .Include(o => o.Product_IdNavigation).FirstOrDefaultAsync(m => m.Id == id);
+                .Include(o => o.OrderId)
+                .Include(o => o.ProductId).FirstOrDefaultAsync(m => m.Id == id);
 
             if (OrderItem == null)
             {

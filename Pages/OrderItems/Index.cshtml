@@ -20,10 +20,10 @@
                 @Html.DisplayNameFor(model => model.OrderItem[0].UnitPrice)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.OrderItem[0].Orders_IdNavigation)
+                @Html.DisplayNameFor(model => model.OrderItem[0].OrderId)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.OrderItem[0].Product_IdNavigation)
+                @Html.DisplayNameFor(model => model.OrderItem[0].ProductId)
             </th>
             <th></th>
         </tr>
@@ -38,10 +38,25 @@
                 @Html.DisplayFor(modelItem => item.UnitPrice)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Orders_IdNavigation.Id)
+                @if (item.OrderId != null) 
+                {
+                    @Html.DisplayFor(modelItem => item.OrderId.Id)
+                }
+                else
+                {
+                    <div>Not found!</div>
+                }
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Product_IdNavigation.Id)
+                @if (item.ProductId != null)
+                {
+                    @Html.DisplayFor(modelItem => item.ProductId.Id)                        
+                }
+                else
+                {
+                    <div>Not found!</div>
+                }
+                    
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

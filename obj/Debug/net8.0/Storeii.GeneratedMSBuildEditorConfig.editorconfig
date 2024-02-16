@@ -66,6 +66,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydEl0ZW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lowe_/source/repos/Storeii/Pages/CountiesInfo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRpZXNJbmZvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/CountiesInfo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRpZXNJbmZvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/CountiesInfo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRpZXNJbmZvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/CountiesInfo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRpZXNJbmZvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/CountiesInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRpZXNJbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lowe_/source/repos/Storeii/Pages/Customers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -126,6 +146,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lowe_/source/repos/Storeii/Pages/OrderInfo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJJbmZvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/OrderInfo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJJbmZvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/OrderInfo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJJbmZvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/OrderInfo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJJbmZvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/OrderInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJJbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lowe_/source/repos/Storeii/Pages/OrderItems/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJJdGVtc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -166,6 +206,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lowe_/source/repos/Storeii/Pages/SuborderItems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJJdGVtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/SuborderItems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJJdGVtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/SuborderItems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJJdGVtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/SuborderItems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJJdGVtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/SuborderItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJJdGVtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Suborders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Suborders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Suborders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Suborders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Suborders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Vib3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lowe_/source/repos/Storeii/Pages/Suppliers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -184,6 +264,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lowe_/source/repos/Storeii/Pages/Suppliers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lowe_/source/repos/Storeii/Pages/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lowe_/source/repos/Storeii/Pages/_ValidationScriptsPartial.cshtml]

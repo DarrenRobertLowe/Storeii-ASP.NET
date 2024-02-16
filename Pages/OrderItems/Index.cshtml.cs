@@ -24,8 +24,8 @@ namespace Storeii.Pages.OrderItems
         public async Task OnGetAsync()
         {
             OrderItem = await _context.OrderItems
-                .Include(o => o.Orders_IdNavigation)
-                .Include(o => o.Product_IdNavigation).ToListAsync();
+                .Include(o => o.OrderId)
+                .Include(o => o.ProductId).ToListAsync();
         }
     }
 }

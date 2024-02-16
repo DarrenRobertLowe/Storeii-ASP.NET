@@ -31,14 +31,14 @@ namespace Storeii.Pages.OrderItems
             }
 
             OrderItem = await _context.OrderItems
-                .Include(o => o.Orders_IdNavigation)
-                .Include(o => o.Product_IdNavigation).FirstOrDefaultAsync(m => m.Id == id);
+                .Include(o => o.OrderId)
+                .Include(o => o.ProductId).FirstOrDefaultAsync(m => m.Id == id);
 
             if (OrderItem == null)
             {
                 return NotFound();
             }
-           ViewData["Orders_Id"] = new SelectList(_context.Set<Order>(), "Id", "Id");
+           ViewData["Orders_Id"] = new SelectList(_context.Orders, "Id", "Id");
            ViewData["Product_Id"] = new SelectList(_context.Product, "Id", "Id");
             return Page();
         }

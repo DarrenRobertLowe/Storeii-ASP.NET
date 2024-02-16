@@ -16,5 +16,10 @@ namespace Storeii.Data
         public DbSet<Storeii.Models.OrderItem> OrderItems { get; set; }
         public DbSet<Storeii.Models.Product> Product { get; set; }
         public DbSet<Storeii.Models.Supplier> Supplier { get; set; }
+        public DbSet<Storeii.Models.Orders> Orders { get; set; }
+        public DbSet<Storeii.Models.Counties> Counties { get; set; }
+        public DbSet<Storeii.Models.Suborder> Suborder { get; set; }
+        public DbSet<Storeii.Models.Suborder_Items> Suborder_Items { get; set; }
+        public DbSet<Storeii.Models.User> User { get; set; }
     }
 }

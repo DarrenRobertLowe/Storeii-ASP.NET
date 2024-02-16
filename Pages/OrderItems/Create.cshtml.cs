@@ -21,7 +21,7 @@ namespace Storeii.Pages.OrderItems
 
         public IActionResult OnGet()
         {
-        ViewData["Orders_Id"] = new SelectList(_context.Set<Order>(), "Id", "Id");
+        ViewData["Orders_Id"] = new SelectList(_context.Orders, "Id", "Id");
         ViewData["Product_Id"] = new SelectList(_context.Product, "Id", "Id");
             return Page();
         }

@@ -546,3 +546,4 @@ C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Microsoft.Extensions.Option
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Microsoft.JSInterop.dll
 C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\Storeii.RazorAssemblyInfo.cache
 C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\Storeii.RazorAssemblyInfo.cs
+C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\Storeii.sourcelink.json
