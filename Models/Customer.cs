@@ -7,6 +7,7 @@ namespace Storeii.Models
         public int Id { get; set;}
         public string FirstName { get; set; }
         public string Surname { get; set; }
+        public object User { get; internal set; }
 
         // foreign keys
         [ForeignKey("AddressNavigation")]
@@ -16,5 +17,6 @@ namespace Storeii.Models
         [ForeignKey("LocationNavigation")]
         public int? Location { get; set; }                   // This is the foreign key
         public Location LocationNavigation { get; set; }      // This is the navigation property
+        
     }
 }

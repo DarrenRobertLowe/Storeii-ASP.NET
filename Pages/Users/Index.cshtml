@@ -23,13 +23,16 @@
                 @Html.DisplayNameFor(model => model.User[0].Role)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].CustomerId)
+                <!-- @Html.DisplayNameFor(model => model.User[0].CustomerNavigation) -->
+                CustomerId
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].DriverId)
+                <!-- @Html.DisplayNameFor(model => model.User[0].DriverNavigation) -->
+                DriverId
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].SupplierId)
+                <!-- @Html.DisplayNameFor(model => model.User[0].SupplierNavigation) -->
+                SupplierId
             </th>
             <th></th>
         </tr>
@@ -46,24 +49,36 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Role)
             </td>
-            <td>
-                @if (item.CustomerId != null)
-                {
-                    @Html.DisplayFor(modelItem => item.CustomerId.Id)
-                }
-            </td>
-            <td>
-                @if (item.DriverId != null)
-                {
-                    @Html.DisplayFor(modelItem => item.DriverId.Id)
-                }
-            </td>
-            <td>
-                @if (item.SupplierId != null)
-                {
-                    @Html.DisplayFor(modelItem => item.SupplierId.Id)
-                }
-            </td>
+                <td>
+                    @if (item.CustomerNavigation != null)
+                    {
+                        <p>@item.CustomerNavigation.Id</p>
+                    }
+                    else
+                    {
+                        <p></p>
+                    }
+                </td>
+                <td>
+                    @if (item.DriverNavigation != null)
+                    {
+                        <p>@item.DriverNavigation.Id</p>
+                    }
+                    else
+                    {
+                        <p></p>
+                    }
+                </td>
+                <td>
+                    @if (item.SupplierNavigation != null)
+                    {
+                        <p>@item.SupplierNavigation.Id</p>
+                    }
+                    else
+                    {
+                        <p></p>
+                    }
+                </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |

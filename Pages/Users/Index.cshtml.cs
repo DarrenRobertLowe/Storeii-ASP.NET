@@ -24,9 +24,9 @@ namespace Storeii.Pages.Users
         public async Task OnGetAsync()
         {
             User = await _context.User
-                .Include(u => u.CustomerId)
-                .Include(u => u.DriverId)
-                .Include(u => u.SupplierId).ToListAsync();
+                .Include(u => u.CustomerNavigation)
+                .Include(u => u.DriverNavigation)
+                .Include(u => u.SupplierNavigation).ToListAsync();
         }
     }
 }

@@ -29,9 +29,9 @@ namespace Storeii.Pages.Users
             }
 
             User = await _context.User
-                .Include(u => u.CustomerId)
-                .Include(u => u.DriverId)
-                .Include(u => u.SupplierId).FirstOrDefaultAsync(m => m.Id == id);
+                .Include(u => u.CustomerNavigation)
+                .Include(u => u.DriverNavigation)
+                .Include(u => u.SupplierNavigation).FirstOrDefaultAsync(m => m.Id == id);
 
             if (User == null)
             {

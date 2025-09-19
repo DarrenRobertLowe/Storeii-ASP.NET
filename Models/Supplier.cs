@@ -6,6 +6,8 @@ namespace Storeii.Models
     {
         public int Id { get; set; }
         public string StoreName { get; set; }
+        public User User { get; internal set; }
+
 
         // Foreign Keys
         [ForeignKey("Address_IdNavigation")]
@@ -15,5 +17,6 @@ namespace Storeii.Models
         [ForeignKey("Location_IdNavigation")]
         public int Location_Id { get; set; }
         public Location Location_IdNavigation { get; set; }
+        
     }
 }
