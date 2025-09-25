@@ -2,77 +2,26 @@
 @model Storeii.Pages.Products.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Products";
 }
 
-<h1>Index</h1>
+<h1>@ViewData["Title"]</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].ProductName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].ProductDescription)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].Identifier)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].Stock)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].Supplier_IdNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Product) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductDescription)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Identifier)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Stock)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Supplier_IdNavigation.Id)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model.Product)
+        {
+            <div class="col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                    <div class="card mb-3 shadow-sm">
+                        <img src="~/images/products/@item.Image" class="card-img-top" alt="@item.ProductName" />
+
+                        <div class="card-body">
+                                <h5 class="card-title">@item.ProductName</h5>
+                                <p class="card-text">@item.ProductDescription</p>
+                        </div>
+                    </div>
+            </div>
+        }
+    </div>
+</div>
