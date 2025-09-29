@@ -88,9 +88,6 @@ C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.AspNetCore.S
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
@@ -101,7 +98,6 @@ C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.C
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
@@ -122,14 +118,12 @@ C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.L
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventLog.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventSource.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.VisualBasic.Core.dll
@@ -159,7 +153,6 @@ C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\System.Data.DataSetExt
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\System.Data.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
@@ -547,9 +540,6 @@ C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.AspNetCore.C
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Metadata.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
 C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
 C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\rjimswa.dswa.cache.json
@@ -559,3 +549,11 @@ C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\staticwebassets.build.json.
 C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\lowe_\source\repos\Storeii\obj\Debug\net8.0\Storeii.csproj.Up2Date
+C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\lowe_\source\repos\Storeii\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

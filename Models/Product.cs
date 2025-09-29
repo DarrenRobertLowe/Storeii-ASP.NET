@@ -18,5 +18,9 @@ namespace Storeii.Models
         [ForeignKey("Supplier_IdNavigation")]
         public int? Supplier_Id { get; set; }
         public Supplier Supplier_IdNavigation { get; set; }
+
+
+        // Slug field to make Navbar links easier to write
+        public string Slug => ProductName.ToLower().Replace(" ", "-").Trim('-');
     }
 }

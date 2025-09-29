@@ -1,53 +1,50 @@
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore.Storage.Json;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MySqlConnector;
-using NuGet.Protocol.Plugins;
-using System.Diagnostics;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using Storeii.Data;
+using Storeii.Services;
+using System;
 
-namespace Storeii
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllersWithViews(); // Enables MVC
+
+// Setup MySQL connection with EFCore
+builder.Services.AddDbContext<StoreiiContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection")!,
+        new MySqlServerVersion(new Version(8, 0, 28)) // Use your actual MySQL version
+    ));
+
+// Register services
+builder.Services.AddScoped<IProductService, ProductService>();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline
+if (!app.Environment.IsDevelopment())
 {
-    public class Program
-    {
-
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-
-            var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddMySqlDataSource(builder.Configuration.GetConnectionString("Default")!);
-
-            using var connection = new MySqlConnection(builder.Configuration.GetConnectionString("Default"));
-
-            ReadData(connection);
-        }
-
-        
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
-
-
-
-        private static async void ReadData(MySqlConnection connection)
-        {
-            
-            await connection.OpenAsync();
-            using var command = new MySqlCommand("SELECT * FROM drivers;", connection);
-            using var reader = await command.ExecuteReaderAsync();
-            while (await reader.ReadAsync())
-            {
-                var value = reader.GetValue(0);
-                // do something with 'value'
-                Debug.WriteLine(value);
-            }
-        }
-
-    }
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();  // Tell browsers to always use HTTPS, never downgrade to HTTP
 }
+
+app.UseHttpsRedirection();  // redirects HTTP -> HTTPS
+app.UseStaticFiles();
+app.UseRouting();
+app.UseAuthorization();
+
+// Defaut MVC route
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+// allow for "Slugs" in the Product URLs
+app.MapControllerRoute(
+    name: "product",
+    pattern: "products/{id}/{slug?}",
+    defaults: new { controller = "Products", action = "Details" });
+
+// start
+app.Run();
