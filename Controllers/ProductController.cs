@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
-using Microsoft.EntityFrameworkCore;
-using Storeii.Data;
 using Storeii.Services;
 using System.Threading.Tasks;
 
 namespace Storeii.Controllers
 {
-    //[Route("Products")]
     public class ProductController : Controller
     {
         private readonly IProductService _productService;

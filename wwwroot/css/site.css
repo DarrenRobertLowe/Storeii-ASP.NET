@@ -5,8 +5,16 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  font-size: 32px;
 }
 
+a.nav-link{
+    font-size: 24px;
+}
+
+a.nav-link.login {
+    font-weight: bold;
+}
 
 
 /* Provide sufficient contrast against white background */
@@ -26,11 +34,44 @@ a {
   border-color: #1861ac;
 }
 
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+}
 
+.card-price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+
+.product-description {
+    font-size: 24px;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-image-container {
+    width: 534px;
+    max-height: 800px;
+    object-fit: cover;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 @media (min-width: 768px) {
   html {

@@ -20,8 +20,14 @@ builder.Services.AddDbContext<StoreiiContext>(options =>
 
 // Register services
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddSession();  // Add session service for Cart contents so we don't need to store it in the database
 
 var app = builder.Build();
+
+
+
+
+
 
 // Configure the HTTP request pipeline
 if (!app.Environment.IsDevelopment())
@@ -34,11 +40,13 @@ app.UseHttpsRedirection();  // redirects HTTP -> HTTPS
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
+app.UseSession();               // required for Cart contents.
 
 // Defaut MVC route
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 // allow for "Slugs" in the Product URLs
 app.MapControllerRoute(

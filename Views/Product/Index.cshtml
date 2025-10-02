@@ -1,4 +1,4 @@
-﻿@using static Storeii.Data.StoreiiContext
+﻿@using Storeii.Helpers
 
 <h2>Products</h2>
 <div class="container">
@@ -12,7 +12,7 @@
                         <h5 class="card-title">@product.ProductName</h5>
                         <img src="@Url.Content(Paths.ProductImages + product.Image)" class="card-img-top" alt="@product.ProductName">
                         <p class="card-text">@product.ProductDescription</p>
-                        <p class="card-text fw-bold">€@product.Price</p>
+                        <p class="card-text card-price">€@product.Price</p>
                         <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id" asp-route-slug="@product.Slug" class="btn btn-primary">View</a>
                     </div>
                 </div>

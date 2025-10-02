@@ -2,9 +2,23 @@
 
 <div class="container">
     <h1>@Model.ProductName</h1>
-    <img src="@Url.Content("~/images/products/" + Model.Image)"
-         class="img-fluid mb-3"
-         alt="@Model.ProductName" />
-    <p>@Model.ProductDescription</p>
-    <p class="fw-bold">€@Model.Price</p>
+    <div class = "product-image-container">
+        <img src="@Url.Content("~/images/products/" + Model.Image)"
+             class="img-fluid mb-3" alt="@Model.ProductName" />
+    </div>
+    <p class="product-description">@Model.ProductDescription</p>
+
+    <div class="card">
+        <div class="card-body">
+            <p class="product-price">€@Model.Price</p>
+            <!-- <a asp-controller="Cart" asp-action="AddToCart" class="btn btn-dark btn-lg" method="post" type="submit"> <i class="bi bi-cart-plus"></i> <input type="hidden" name="id" value="@Model.Id"/> "Add To Cart </a> -->
+            <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="submit" class="btn btn-dark btn-lg">
+                    <i class="bi bi-cart-plus"></i> Add To Cart
+                </button>
+            </form>
+        
+        </div>
+    </div>
 </div>
