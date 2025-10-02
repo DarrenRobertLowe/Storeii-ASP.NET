@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Storeii")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e2ec46f5fb0b4d878a325f5095433a61c1561a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e74e0253d34dbaca407e9a0d7dad27a5e2596eec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Storeii")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Storeii")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,8 +8,13 @@ a.navbar-brand {
   font-size: 32px;
 }
 
+
 a.nav-link{
     font-size: 24px;
+}
+
+a.nav-link.cart {
+    font-weight: bold;
 }
 
 a.nav-link.login {

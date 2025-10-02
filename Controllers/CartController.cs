@@ -46,7 +46,7 @@ namespace Storeii.Controllers
             HttpContext.Session.SetObject("Cart", cart);
 
             // Redirect to product index or details
-            return RedirectToAction("Index", "Product");
+            return RedirectToAction("Index", "Cart");
         }
     }
 }
